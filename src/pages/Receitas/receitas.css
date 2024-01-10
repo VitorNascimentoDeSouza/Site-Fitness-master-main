@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe-card {
+  flex: 0 0 calc(33.33% - 20px); /* Três cards por linha */
+  max-width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Media query para ajustar em telas menores */
+@media screen and (max-width: 768px) {
+  .recipe-card {
+    flex: 0 0 calc(50% - 20px); /* Dois cards por linha em telas menores */
+    max-width: calc(50% - 20px);
+  }
+}
+
+/* Media query para telas muito pequenas */
+@media screen and (max-width: 480px) {
+  .recipe-card {
+    flex: 0 0 calc(100% - 20px); /* Um card por linha em telas muito pequenas */
+    max-width: calc(100% - 20px);
+  }
+}

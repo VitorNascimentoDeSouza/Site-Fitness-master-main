@@ -1,0 +1,33 @@
+/* DiaDaSemana.css */
+body{
+    text-align: center;
+}
+
+div {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+
+  /* Exercicio.css */
+li {
+    color: #555;
+  }
+
+  /* App.css */
+h1 {
+    text-align: center;
+    color: #1e90ff;
+  }
+

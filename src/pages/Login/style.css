@@ -1,0 +1,15 @@
+.bg-orange {
+    background-color: orange !important;
+    color: white;
+    width: 500px;
+  }
+
+  .btn-login {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+  
+  .forgot-password {
+    color: black;
+  }

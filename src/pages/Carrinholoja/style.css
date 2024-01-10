@@ -1,0 +1,23 @@
+.tudodecarrinho i{
+    height: 10px;
+  }
+  .tudodecarrinho input{
+    height: 30px;
+  }
+  
+  .input-quantity {
+    width: 100px; /* Ajuste o tamanho conforme desejado */
+  }
+  .delete{
+    margin-top: -1px;
+  }
+  .tudodecarrinho h1{
+    text-align: center;
+  }
+  
+  .quantity-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+

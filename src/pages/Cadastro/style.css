@@ -1,0 +1,35 @@
+.bg-orange card {}
+.bg-orange {
+    background-color: orange !important;
+    color: white;
+    width: 500px;
+  }
+  .btn-cadastro {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+
+  @media (max-width: 554px) {
+    .bg-orange{
+        width: 400px;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .bg-orange{
+        width: 300px;
+    }
+  }
+
+  @media (max-width: 340px) {
+    .bg-orange{
+        width: 200px;
+    }
+  }
+
+  @media (max-width: 240px) {
+    .bg-orange{
+        width: 150px;
+    }
+  }
